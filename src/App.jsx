@@ -15,10 +15,10 @@ import Index from './indexPage/Index'
 import NeedyDashboard from './NeeyDashBoard'
 import DashNav from './DashNav'
 import DonorDash from './DonorDash'
-import AdminDash from './adminPannel/adminDash'
+import AdminDash from './adminPannel/AdminDash'
 import UserList from './adminPannel/UserList'
-import AllDonors from './adminPannel/allDonors'
-import AllNeedies from './adminPannel/allNeedies'
+import AllDonors from './adminPannel/AllDonors'
+import AllNeedies from './adminPannel/AllNeedies'
 import ProtectedRoute from './ProtectedRoute'
 
 function App() {
@@ -60,9 +60,7 @@ function App() {
        <Route path='donorForm' element={<DonorForm></DonorForm>}></Route>
        <Route path='mediAvailForm' element={<MediAvailForm></MediAvailForm>}></Route> 
        <Route path='medicineList' element={<MedicineList></MedicineList>} ></Route>  
-       {/* <Route path='MediAvailForm' element={<MediAvailForm></MediAvailForm>} ></Route>   */}
-
-
+       
       </Route>
       </Route>
       
